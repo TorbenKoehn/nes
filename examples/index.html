@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>NES Emulator Demo</title>
+
+        <style>
+            body, html {
+                margin: 0;
+                padding: 0;
+            }
+
+            body {
+                background: grey;
+            }
+
+            #container {
+                width: 256px;
+                margin: 100px auto 0;
+                background: black;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <canvas id="canvas" data-nes></canvas>
+        </div>
+
+        <script src="../dist/nes.js"></script>
+    </body>
+</html>

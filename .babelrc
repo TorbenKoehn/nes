@@ -1,0 +1,14 @@
+{
+  "presets": [
+    [
+      "env",
+      {
+        "targets": {
+          "electron": "1.6",
+          "browsers": ["last 2 versions", "safari >= 7"]
+        }
+      }
+    ]
+  ],
+  "sourceMaps": false
+}
